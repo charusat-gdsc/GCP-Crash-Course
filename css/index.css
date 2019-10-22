@@ -54,7 +54,7 @@ body{
     color: #ffffff;
     font-size: 24px;
     font-weight: 300;
-    width: 150px;
+    width: 300px;
     text-align: center;
     padding: 10px;
     border-radius: 6px;
@@ -204,6 +204,9 @@ body{
     transform: scale(1.1);
 }
 
+.group-link{
+    text-decoration: none;
+}
 
 .dharam{
     background: url('../images/dharam.png') center center;
@@ -352,6 +355,28 @@ body{
     display: none;
 }
 
+.join-group-button{
+    background: #4D95FB url('../images/telegram_regular.svg') no-repeat top left;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin:auto auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #4D95FB;
+    transition: all .3s ease;
+}
+
+.join-group-button:hover{
+    background: #4D95FB url('../images/telegram_white.svg') no-repeat top left;
+    background: #ffffff;
+    color: #4D95FB;
+}
+
 
 /* Media Queries */
 
@@ -413,3 +438,5 @@ body{
         cursor: pointer;
         border: 1px solid #4D95FB;
     }
+
+}
