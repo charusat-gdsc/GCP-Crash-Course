@@ -191,6 +191,35 @@ body{
     margin-top: 15px;
 }
 
+.team{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: .3s ease;
+    margin:auto auto;
+}
+
+.team:hover{
+    transform: scale(1.1);
+}
+
+
+.dharam{
+    background: url('../images/dharam.png') center center;
+    background-size: cover;
+}
+
+.varun{
+    background: url('../images/varun.png') center center;
+    background-size: cover;
+}
+
+.rohan{
+    background: url('../images/rohan.png') center center;
+    background-size: cover;
+}
+
 .hoodie{
     background: url('../images/Hoodie.svg') center center;
     background-size: cover;
