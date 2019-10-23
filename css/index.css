@@ -355,7 +355,7 @@ body{
     display: none;
 }
 
-.join-group-button{
+.regular-button{
     background: #4D95FB url('../images/telegram_regular.svg') no-repeat top left;
     color: #ffffff;
     font-size: 24px;
@@ -371,7 +371,7 @@ body{
     transition: all .3s ease;
 }
 
-.join-group-button:hover{
+.regular-button:hover{
     background: #4D95FB url('../images/telegram_white.svg') no-repeat top left;
     background: #ffffff;
     color: #4D95FB;
