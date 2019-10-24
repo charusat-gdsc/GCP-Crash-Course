@@ -2,10 +2,8 @@ var cacheName = 'GCPCrashCourse';
 var filesToCache = [
   '/',
   '/index.html',
-  '/team.html',
+  '/faqs.html',
   'css/index.css',
-  'css/team.css/',
-  '/team.js',
   'js/index.js',
   'after-landing.svg',
   'images/Behance.svg',
